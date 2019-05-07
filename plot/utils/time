@@ -1,0 +1,7 @@
+# get localtime and change it to suitable format
+import time
+t = time.localtime()
+ft = "%Y%m%d%H%M%S"
+nt = time.strftime(ft,t)
+print(nt)
+# '20190507101338'
